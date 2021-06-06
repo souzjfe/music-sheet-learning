@@ -1,0 +1,5 @@
+node_modules
+/*.js
+.expo
+.expo-shared
+assets
