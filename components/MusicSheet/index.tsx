@@ -3,8 +3,12 @@ import React from 'react'
 import Select from '../Select'
 
 import { Container, SelectsContainer, Sheet } from './styles'
+interface ISelectProps {
+  clef: number
+  setClef(clef: number): void
+}
 
-const MusicSheet = () => {
+const MusicSheet: React.ElementType<ISelectProps> = ({ setClef, clef }) => {
   return (
     <Container>
       <SelectsContainer>

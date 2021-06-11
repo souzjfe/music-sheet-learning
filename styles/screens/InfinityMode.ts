@@ -34,6 +34,7 @@ export const ButtonsContainer = styled.View`
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 1.2rem;
+  justify-content: space-around;
   margin: 0 32px;
 `
